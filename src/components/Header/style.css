@@ -1,0 +1,42 @@
+#dog {
+  
+  height: 100%;
+}
+
+.horizontally {
+ height: 170px;	
+ overflow: hidden;
+ position: relative;
+}
+.horizontally .inner {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ /* Starting position */
+
+ transform:translateX(40%);
+ /* Apply animation to this element */	
+ animation: horizontally 20s linear infinite alternate;
+}
+/* Move it (define the animation) */
+
+@keyframes horizontally {
+ 0%   { 
+ transform: translateX(40%); 		
+ }
+ 100% { 
+ transform: translateX(-40%); 
+ }
+}
+.inner {
+  font-size: 50px;
+  outline: 5px dotted #7428bf;
+  text-shadow: 2px 2px #7428bf;
+}
+
+
+
+/* <div class="marquee-outer">
+<div class="marquee-inner"><img src="//www.html.am/images/html-codes/marquees/fish-swimming.gif" width="94" height="88" alt="Swimming fish"></div>
+</div> */
