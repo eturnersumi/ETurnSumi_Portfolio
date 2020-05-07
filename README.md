@@ -1,6 +1,6 @@
 **My Profile**
 
-https://tranquil-river-89796.herokuapp.com/contact
+https://tranquil-river-89796.herokuapp.com/
 
 
 The web app is a web app about me that displays some of my work. 
