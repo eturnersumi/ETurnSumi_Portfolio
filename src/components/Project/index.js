@@ -62,9 +62,11 @@ function Project() {
     </div>
     <div className="flip-card-back">
       <h1>Beat My Dynasty</h1>
-      <p>Details coming soon!</p>
+      <p>Pick NBA dynasties to compete against one another.</p>
       <p className="link">
-        Deployment coming soon!
+        <a href="https://fierce-chamber-39639.herokuapp.com/">
+        Try it out!
+        </a>
         </p>
     </div>
   </div>
