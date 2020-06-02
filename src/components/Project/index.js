@@ -58,7 +58,7 @@ function Project() {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img className="apps" src={require("../../images/beatmydynasty.PNG")} alt="beatmydynasty"/>
+      <img className="apps" src={require("../../images/dynasty.PNG")} alt="beatmydynasty"/>
     </div>
     <div className="flip-card-back">
       <h1>Beat My Dynasty</h1>
